@@ -19,6 +19,14 @@ strike {
   font-family: "Montserrat", sans-serif;
 }
 
+.navbar {
+  background: #ffffff;
+}
+
+.brand {
+  padding-left: 30px;
+}
+
 #task-container {
   max-width: 600px;
   margin: 0 auto;
