@@ -63,3 +63,17 @@ strike {
 .task-wrapper:hover {
   background-color: #f0f0f0;
 }
+
+.LandLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerLink {
+  color: #ffffff;
+}
+
+.footerLink:hover {
+  color: #ffffff;
+}

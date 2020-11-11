@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
+    'knox',
     'api.apps.ApiConfig'
 ]
 
@@ -127,3 +128,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
 ]
 
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': ('knox.auth.TokenAuthentication',),
+}
